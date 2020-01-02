@@ -15,7 +15,7 @@ from emmaa.subscription.email_service import email_bucket
 FORMAT = '%Y-%m-%d-%H-%M-%S'
 RE_DATETIMEFORMAT = r'\d{4}\-\d{2}\-\d{2}\-\d{2}\-\d{2}\-\d{2}'
 RE_DATEFORMAT = r'\d{4}\-\d{2}\-\d{2}'
-EMMAA_BUCKET_NAME = 'emmaa'
+EMMAA_BUCKET_NAME = 'emmaa-test'
 logger = logging.getLogger(__name__)
 
 
